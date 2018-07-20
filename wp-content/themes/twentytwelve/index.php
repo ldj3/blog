@@ -30,7 +30,8 @@ get_header(); ?>
 				<?php get_template_part( 'content', get_post_format() ); ?>
 			<?php endwhile; ?>
 
-			<?php twentytwelve_content_nav( 'nav-below' ); ?>
+			<!-- <?php twentytwelve_content_nav( 'nav-below' ); ?> -->
+			<?php if(function_exists('wp_pagenavi')) { wp_pagenavi();} ?>
 
 		<?php else : ?>
 
@@ -68,6 +69,9 @@ get_header(); ?>
 
 		</div><!-- #content -->
 	</div><!-- #primary -->
+
+
+<!-- <?php if(function_exists('wp_pagenavi')) { wp_pagenavi();} ?> -->
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

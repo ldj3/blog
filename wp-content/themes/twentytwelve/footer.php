@@ -18,7 +18,7 @@
 				the_privacy_policy_link( '', '<span role="separator" aria-hidden="true"></span>' );
 			}
 			?>
-			<!-- <a href="javascript:void(0)	" class="imprint" title="<?php esc_attr_e( 'love life', 'twentytwelve' ); ?>">
+<!-- 			<a href="javascript:void(0)	" class="imprint" title="<?php esc_attr_e( 'love life', 'twentytwelve' ); ?>">
 				<?php printf( __( '明日天寒地冻，日短夜长，路远马亡', '梦马' ), '梦马' ); ?>
 			</a> -->
 			<p>明日天寒地冻，日短夜长，路远马亡</p>

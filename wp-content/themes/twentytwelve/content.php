@@ -54,7 +54,7 @@
 ?>
 		</div><!-- .entry-content -->
 		<?php endif; ?>
-
+		
 		<footer class="entry-meta">
 			<?php twentytwelve_entry_meta(); ?>
 			阅读量：<?php if(function_exists('the_views')) { the_views(); } ?>&nbsp;&nbsp;&nbsp;&nbsp;
